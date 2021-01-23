@@ -5,7 +5,7 @@ let firebaseConfig={}
   
   firebaseConfig = {
         apiKey: "AIzaSyAh8F9MCHsphK5BQ1b8fvFssXJQ_FSy-Lw",
-        authDomain: "moneymanage-2068d.firebaseapp.com",
+        authDomain: "moneymanagerr.herokuapp.com",
         projectId: "moneymanage-2068d",
         storageBucket: "moneymanage-2068d.appspot.com",
         messagingSenderId: "249274745904",
