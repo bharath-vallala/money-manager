@@ -1,7 +1,5 @@
 import React from 'react'
-import { useSelector } from "react-redux";
 import TopNavBar from "../components/TopNavBar/TopNavBar"
-import AddTModal from "../components/AddTransactionModal/AddTransactionsModal"
 import ViewTransaction from "../components/ViewTransactions/viewTransactions"
 export default function Home() {
    

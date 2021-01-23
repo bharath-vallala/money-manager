@@ -1,13 +1,11 @@
 import React from 'react'
 import { useFirebase } from "react-redux-firebase";
-import { useHistory } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { isLoaded, isEmpty } from "react-redux-firebase";
 import {Redirect } from "react-router-dom";
 import image from "../images/btn_google_signin_dark_focus_web.png"
 export default function SignIn() {
     const firebase = useFirebase();
-    const history = useHistory();
     const auth = useSelector(state => state.firebase.auth)
 
 

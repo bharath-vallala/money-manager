@@ -1,6 +1,5 @@
 
-import functions from 'firebase-functions'
-import dotenv from "dotenv"
+
 
 let firebaseConfig={}
   
